@@ -1,0 +1,71 @@
+[improvePage]
+other = "이 문서 개선하기"
+
+[lastUpdated]
+other = "마지막 업데이트"
+
+[joinTitle]
+other = "소셜 미디어의 변화에 함께하세요"
+
+[joinText]
+other = "마스토돈은 300만 명 이상이 사용하는 자유로운 탈중앙화 플랫폼입니다"
+
+[joinAction]
+other = "지금 마스토돈에 가입하세요!"
+
+[merch]
+other = "굿즈"
+
+[shirtsAndStickers]
+other = "티셔츠와 스티커"
+
+[joinMastodon]
+other = "마스토돈 가입하기"
+
+[blog]
+other = "블로그"
+
+[viewSource]
+other = "원문 파일 보기"
+
+[imprint]
+other = "운영자 정보"
+
+[formDataParameters]
+other = "폼 데이터 매개변수"
+
+[headers]
+other = "헤더"
+
+[required]
+other = "필수"
+
+[optional]
+other = "선택 사항"
+
+[deprecated]
+other = "사용 중단 예정"
+
+[removed]
+other = "제거됨"
+
+[nullable]
+other = "null 허용"
+
+[pathParameters]
+other = "경로 매개변수"
+
+[queryParameters]
+other = "쿼리 매개변수"
+
+[request]
+other = "요청"
+
+[response]
+other = "응답"
+
+[otherTranslations]
+other = "다른 언어:"
+
+[sponsoredBy]
+other = "후원"

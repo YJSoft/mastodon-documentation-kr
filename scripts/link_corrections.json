@@ -1,0 +1,44 @@
+{
+  "admin/elasticsearch.md": [
+    ["../../prerequisites/#install-a-firewall-and-only-whitelist-ssh-http-and-https-ports", "../prerequisites/#install-a-firewall-and-only-allow-ssh-http-and-https-ports"]
+  ],
+  "client/authorized.md": [
+    ["client/token#creating-our-application", "client/token#app"],
+    ["client/authorized#authorize-the-user", "client/authorized#login"]
+  ],
+  "client/public.md": [
+    ["methods/statuses#get-one", "methods/statuses#get"],
+    ["methods/statuses#boosted_by", "methods/statuses#reblogged_by"],
+    ["methods/instance#fetch-instance", "methods/instance#v1"]
+  ],
+  "client/quotes.md": [
+    ["methods/statuses#interaction_policy", "methods/statuses#edit_interaction_policy"]
+  ],
+  "entities/Admin_Ip.md": [
+    ["entities/Admin_Account#ips", "entities/Admin_Account#ip"]
+  ],
+  "entities/PreviewCard.md": [
+    ["entities/Account#source[attribution_domains]", "entities/Account#source-attribution_domains"]
+  ],
+  "entities/Profile.md": [
+    ["methods/profile#extended_description", "methods/profile#get-current-user-profile"]
+  ],
+  "entities/Tag.md": [
+    ["entities/Search#tags", "entities/Search#hashtags"]
+  ],
+  "methods/admin/reports.md": [
+    ["methods/instance#get", "methods/instance#v1"]
+  ],
+  "methods/reports.md": [
+    ["methods/instance#get", "methods/instance#v1"]
+  ],
+  "methods/statuses.md": [
+    ["entities/Account##source-quote_policy", "entities/Account#source-quote_policy"]
+  ],
+  "spec/security.md": [
+    ["admin/tootctl#tootctl-self-destruct", "admin/tootctl#self-destruct"]
+  ],
+  "user/network.md": [
+    ["/admin/config#authorized-fetch", "/admin/config#authorized_fetch"]
+  ]
+}

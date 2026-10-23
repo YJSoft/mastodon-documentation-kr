@@ -1,6 +1,6 @@
-baseURL = "https://docs.joinmastodon.org/"
+baseURL = "https://yjsoft.github.io/mastodon-documentation-kr/"
 languageCode = "en-us"
-defaultContentLanguage = "en"
+defaultContentLanguage = "ko"
 title = "Mastodon documentation"
 pygmentsCodeFences = true
 pygmentsStyle = "github-dark"
@@ -191,6 +191,7 @@ disablePathToLower = true
 
 [languages]
   [languages.en]
+    disableAliases = true
     contentDir = "content/en"
     languageName = "English"
     weight = -99
@@ -209,3 +210,57 @@ disablePathToLower = true
     contentDir = "content/ja"
     languageName = "日本語"
     weight = 2
+
+
+[languages.ko]
+  contentDir = "content/ko"
+  languageCode = "ko-KR"
+  languageName = "한국어"
+  title = "마스토돈 한국어 문서"
+  weight = -100
+
+[languages.ko.menu]
+  [[languages.ko.menu.docs]]
+    name = "마스토돈 사용하기"
+    weight = 10
+    identifier = "user"
+    url = "/user/"
+  [[languages.ko.menu.docs]]
+    name = "마스토돈 운영하기"
+    weight = 20
+    identifier = "admin"
+    url = "/admin/"
+  [[languages.ko.menu.docs]]
+    name = "마스토돈 앱 개발하기"
+    weight = 30
+    identifier = "client"
+    url = "/client/"
+  [[languages.ko.menu.docs]]
+    name = "마스토돈 개발에 기여하기"
+    weight = 40
+    identifier = "dev"
+    url = "/dev/"
+  [[languages.ko.menu.docs]]
+    name = "표준 준수"
+    weight = 50
+    identifier = "spec"
+    url = "/spec/"
+  [[languages.ko.menu.docs]]
+    name = "REST API"
+    weight = 60
+    identifier = "api"
+    url = "/api/"
+  [[languages.ko.menu.docs]]
+    name = "API 메서드"
+    weight = 70
+    identifier = "methods"
+    url = "/methods/"
+  [[languages.ko.menu.docs]]
+    name = "API 엔터티"
+    weight = 80
+    identifier = "entities"
+    url = "/entities/"
+
+[params]
+  sourceRepository = "https://github.com/YJSoft/mastodon-documentation-kr"
+  sourceBranch = "main"

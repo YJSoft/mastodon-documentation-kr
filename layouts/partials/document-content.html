@@ -1,0 +1,3 @@
+{{- /* Keep upstream HTML media usable when hosted under a project subpath. */ -}}
+{{- $assetPrefix := "assets/" | relURL -}}
+{{- .Content | replaceRE `src="/assets/` (printf `src="%s` $assetPrefix) | safeHTML -}}
